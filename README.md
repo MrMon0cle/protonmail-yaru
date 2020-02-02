@@ -16,6 +16,6 @@ protonmail-yaru is a ProtonMail Beta Theme (eventually a Protonmail 2.0 Theme) a
 - Pick the theme you like from the *themes* folder in the repository.
 - Select the theme and select the code view.
 - Select everything, make sure you have absolutely everything selected, and copy the code. 
-- On ProtonMail's website, click on *Settings*, then in the *Appearance* column, click *Themes* .
-- Paste the code under the *Custom Theme* section and press save.
+- On ProtonMail's website, click on *Settings*, then in the *Appearance* column, click *Themes*.
+- In the *Custom Theme* option, delete any CSS that appears, then paste the new CSS code from your clipboard and press save.
 - Finally, make sure to refresh the page so all the changes can take effect.
