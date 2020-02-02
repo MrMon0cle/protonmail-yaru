@@ -1,5 +1,5 @@
 # Ubuntu 20.04 Yaru Theme for Protonmail 2.0/Beta
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]() [![service](https://img.shields.io/badge/service-ProtonMail-9497ce.svg)]()
+[![license](https://img.shields.io/badge/license-GPL-blue.svg)]() [![service](https://img.shields.io/badge/service-ProtonMail-9497ce.svg)]() [![service](https://img.shields.io/badge/service-ProtonMail_Beta-9497ce.svg)]() [![service](https://img.shields.io/badge/made_for-Ubuntu-orange.svg)]()
 
 protonmail-yaru is a ProtonMail Beta Theme (eventually a Protonmail 2.0 Theme) aimed to imitate the look and feel of the new Ubuntu 20.04 Yaru Theme. Looks best on Ubuntu, especially when paired with Firefox. Other flavors coming soon.
     
