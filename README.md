@@ -7,7 +7,7 @@ protonmail-yaru is a ProtonMail Beta Theme (eventually a Protonmail 2.0 Theme) a
   
 #### Yaru Default Theme Screenshot 
 
-![protonmail-yaru](screenshots/yaru-default.jpg)
+![protonmail-yaru](/protonmail-yaru.jpg)
     
 ---
   
