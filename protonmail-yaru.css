@@ -1,0 +1,128 @@
+/*
+*=== Ubuntu 20.04 Yaru Theme for Protonmail 2.0/Beta ===
+*/
+
+/*
+*- Protonmail Services Sidebar -
+*/
+.aside {
+    background: var(--main-bg-color,#2b292a) !important;
+	}
+.aside-link {
+    background: var(--bgcolor-aside-link,#232323) !important;
+}
+.aside-link:active .aside-linkIcon, .aside-link:focus .aside-linkIcon, .aside-link:hover .aside-linkIcon, .aside-link[aria-current=true] .aside-linkIcon {
+    fill: #f6f7fa !important;
+}
+
+/*
+*- Main Sidebar -
+*/
+div#ptSidebar {
+    background-color: #353535 !important;
+	border-left: solid 1.3px #232323 !important;
+}
+.sidebar {
+    background-color: #353535 !important;
+	border-left: solid 1.3px #232323 !important;
+}
+[aria-current=page].navigation__link {
+    background: var(--main-bg-color,#ea5421) !important;
+    color: var(--color-nav-active,#ffffff) !important;
+    font-weight: 700;
+}
+[aria-current=page].navigation__link .navigation__icon, [aria-current=page].navigation__link:hover .navigation__icon {
+    fill: var(--color-nav-active,#ffffff) !important;
+}
+.pm-button--error, .pm-button--error.pm-button--info, .pm-button--error.pm-button--redborder, .pm-button--primary, .pm-button--primary.pm-button--info, .pm-button--primary.pm-button--redborder, .pm-button--warning, .pm-button--warning.pm-button--info, .pm-button--warning.pm-button--redborder, .pm-button-blue, .pm-button-blue.pm-button--info, .pm-button-blue.pm-button--redborder, .pm-button.pm-button--error, .pm-button.pm-button--primary, .pm-button.pm-button--warning, .pm-button.pm-button-blue {
+    color: #fff !important;
+    background-color: #eb5520 !important;
+    border: 1px solid #232323 !important;
+}
+.navigation__sublink[aria-current=true] {
+    border-left: 2px solid var(--color-nav-active,#eb5520) !important;
+}
+.circle-chart__circle {
+    stroke: #eb5520 !important;
+}
+.flex.flex-nowrap.content-wrapper.securedContent-wrapper {
+    background-color: #232323 !important;
+}
+
+/*
+*- Header -
+*/
+.header {
+    background-color: #353535 !important;
+	border-left: solid 2px #232323 !important;
+}
+.searchbox-field[type=search] {
+    background-color: var(--bgcolor-searchbox-field,#3a3a3a) !important;
+    box-shadow: none !important;
+    border: solid 1.3px #232323 !important;
+}
+.topnav-link:active, .topnav-link:focus, .topnav-link:hover, .topnav-link[aria-current=true] {
+    color: var(--color-nav-active,#eb5520) !important;
+    text-decoration: none !important;
+}
+.topnav-link:active>.topnav-icon, .topnav-link:focus>.topnav-icon, .topnav-link:hover>.topnav-icon, .topnav-link[aria-current=true]>.topnav-icon {
+    fill: var(--color-nav-active,#eb5520) !important;
+}
+
+/*
+*- Toolbar -
+*/
+.toolbar {
+    height: 5rem;
+    background: var(--bgcolor-toolbar,#2b292a) !important;
+    border-radius: 3px 3px 0 0 !important;
+    border: solid 1.3px #232323 !important;
+	box-shadow: none !important;
+}
+.toolbar-separator {
+    width: 1.3px !important;
+    background-color: #232323 !important;
+	background-image: none !important;
+}
+.pm-select-all .pm-checkbox-fakecheck, .pm-select-all .pm-radio-fakeradio {
+    border: 1.3px solid #232323 !important;
+    background-color: var(--bgcolor-aside-link,#f6f7fa) !important;
+}
+
+/*
+*- Email Area -
+*/
+.conversation.marked:before {
+    background-color: #eb5520 !important;
+}
+.item-container, .item-container-row {
+    border-bottom: 1px solid var(--bordercolor-input,#232323) !important;
+    background-color: var(--bgcolor-item-column-list,#f6f7fa) !important;
+    background: var(--bgcolor-item-column-list,#f7f7f7) !important;
+}
+section.item-wrapper {
+    border: solid 1.3px #232323 !important;
+}
+
+/*
+*- Proton Calendar -
+*/
+.minicalendar-day[aria-current=date][aria-pressed=true]:before {
+    background: #eb5520 !important;
+}
+.minicalendar-day[aria-pressed=true] {
+    color: #fff !important;
+    background: #eb5520 !important;
+}
+span.pm-checkbox-fakecheck {
+    border-color: #232323 !important;
+    background: #eb5520 !important;
+    color: #ffffff !important;
+}
+.calendar-grid-heading[aria-pressed=true] .calendar-grid-heading-number {
+    background-color: #eb5520 !important;
+    color: #fff !important;
+}
+.pm-button.toolbar-button.is-active, .pm-button.toolbar-button:active, .pm-button.toolbar-button:not(div):active, .pm-button.toolbar-button [aria-expanded=true], .toolbar-button.is-active, .toolbar-button.is-active.pm-button--info, .toolbar-button.is-active.pm-button--redborder, .toolbar-button.pm-button--info:active, .toolbar-button.pm-button--info:not(div):active, .toolbar-button.pm-button--info [aria-expanded=true], .toolbar-button.pm-button--redborder:active, .toolbar-button.pm-button--redborder:not(div):active, .toolbar-button.pm-button--redborder [aria-expanded=true], .toolbar-button:active, .toolbar-button:not(div):active, .toolbar-button [aria-expanded=true] {
+    background-color: var(--bgcolor-spacebar,#232323) !important;
+}
